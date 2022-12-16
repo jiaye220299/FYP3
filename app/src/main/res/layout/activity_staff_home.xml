@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".StaffHome">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/blogger_layout_id2"
+            android:layout_width="374dp"
+            android:layout_height="476dp"
+            android:background="@drawable/below_background"
+            android:elevation="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.589"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.698"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="367dp"
+                android:layout_height="33dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="62dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/textView22"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="-3dp">
+
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="168dp"
+                    android:layout_height="match_parent"
+                    android:text=" Booking Date:"
+                    android:textColor="#208F85"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/date_id"
+                    android:layout_width="172dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="108dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/view"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="-2dp">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="169dp"
+                    android:layout_height="30dp"
+                    android:text=" Booking Time:"
+                    android:textColor="#208F85"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/time_id"
+                    android:layout_width="194dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="367dp"
+                android:layout_height="33dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="42dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/view2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="-3dp">
+
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="168dp"
+                    android:layout_height="match_parent"
+                    android:text=" Item:"
+                    android:textColor="#208F85"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ordertype_id"
+                    android:layout_width="194dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="367dp"
+                android:layout_height="33dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="42dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/view3"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="-3dp">
+
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="168dp"
+                    android:layout_height="match_parent"
+                    android:text=" Remark:"
+                    android:textColor="#208F85"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/remark_id"
+                    android:layout_width="194dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="367dp"
+                android:layout_height="85dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="42dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/view4"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="-3dp">
+
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="168dp"
+                    android:layout_height="match_parent"
+                    android:text=" PickUp Point:"
+                    android:textColor="#208F85"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/address_id"
+                    android:layout_width="194dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="29dp"
+                android:layout_weight="1"
+                android:background="#D9D9D9"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="-2dp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="224dp"
+                android:layout_weight="1"
+                android:background="#D9D9D9"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout2"
+                tools:layout_editor_absoluteX="2dp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="224dp"
+                android:layout_weight="1"
+                android:background="#D9D9D9"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout4"
+                tools:layout_editor_absoluteX="2dp" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="224dp"
+                android:layout_weight="1"
+                android:background="#D9D9D9"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout5"
+                tools:layout_editor_absoluteX="2dp" />
+
+            <Button
+                android:id="@+id/btn_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:text="Accept Booking"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="267dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/above_background"
+                android:fontFamily="@font/aclonica"
+                android:text="Booking Details"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="415dp"
+            android:layout_height="207dp"
+            android:background="@drawable/top_background2"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="141dp"
+                android:layout_height="60dp"
+                android:onClick="DeliveryOrder"
+                android:text="My Order"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.795"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.108" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="154dp"
+                android:layout_height="60dp"
+                android:onClick="DeliveryChoose"
+                android:text="Select order"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.108" />
+
+            <TextView
+                android:id="@+id/des3"
+                android:layout_width="289dp"
+                android:layout_height="48dp"
+                android:text="Pending List"
+                android:textAlignment="center"
+                android:textColor="#2c3e50"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.597" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="479dp"
+                android:layout_height="406dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.031"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.959"
+                app:srcCompat="@drawable/circles" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottom_navigation2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/main2"
+        app:itemIconTint="@color/nav_color"
+        app:itemTextColor="@color/nav_color"
+        android:background="@drawable/rounded"/>
+
+
+    <ListView
+        android:id="@+id/listview_id"
+        android:layout_width="378dp"
+        android:layout_height="480dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666">
+
+    </ListView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

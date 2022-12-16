@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="107dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="18dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="377dp"
+        android:layout_height="310dp">
+
+
+        <TextView
+            android:id="@+id/date_id"
+            android:layout_width="210dp"
+            android:layout_height="47dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.866"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.019" />
+
+        <TextView
+            android:id="@+id/time_id"
+            android:layout_width="233dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.168" />
+
+        <TextView
+            android:id="@+id/ordertype_id"
+            android:layout_width="210dp"
+            android:layout_height="47dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.866"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.32" />
+
+        <TextView
+            android:id="@+id/remark_id"
+            android:layout_width="233dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.475" />
+
+        <TextView
+            android:id="@+id/address_id"
+            android:layout_width="231dp"
+            android:layout_height="100dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.985" />
+
+        <TextView
+            android:id="@+id/orderstatus_id"
+            android:layout_width="211dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="#F30404"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.871"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.629" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="153dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Booking Date:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.005"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.017" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="153dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Booking Time:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.005"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.164" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="153dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Items:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.005"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.314" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="153dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Remarks:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.005"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.464" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="153dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="OrderStatus:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.005"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.614" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="149dp"
+            android:layout_height="57dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="PickUp Point:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.004"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.819" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

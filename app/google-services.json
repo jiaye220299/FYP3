@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "350378540105",
+    "firebase_url": "https://psm2-a0730-default-rtdb.firebaseio.com",
+    "project_id": "psm2-a0730",
+    "storage_bucket": "psm2-a0730.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350378540105:android:257b47bc1225a832495398",
+        "android_client_info": {
+          "package_name": "com.example.fyp3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350378540105-j0sv5n6ubs9rhhgsl0g4u2mdnbit1j86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsgGB9SJjWz0FetSMTw53wvUhKmo8rkrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350378540105-j0sv5n6ubs9rhhgsl0g4u2mdnbit1j86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
